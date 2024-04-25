@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://clstfnyvupbf8"]
+
+[ext_resource type="Script" path="res://Player-script.gd" id="1_b2qhb"]
+[ext_resource type="Texture2D" uid="uid://2sbmu3hiour1" path="res://icon.svg" id="1_kc5p6"]
+[ext_resource type="AudioStream" uid="uid://pwsd3r5ysk56" path="res://boing-spring-mouth-harp-04-20-13-4-103346.mp3" id="3_8u6xi"]
+[ext_resource type="AudioStream" uid="uid://dskwhr7ex8tq8" path="res://punch-boxing-02wav-14897.mp3" id="4_ujcla"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qkd5s"]
+size = Vector2(129.5, 130.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_b2qhb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qkd5s")
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("1_kc5p6")
+
+[node name="jumpsound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_8u6xi")
+volume_db = -2.811
+pitch_scale = 1.1
+
+[node name="landingSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_ujcla")
+volume_db = -2.811
+pitch_scale = 1.1

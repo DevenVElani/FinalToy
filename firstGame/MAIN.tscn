@@ -1,0 +1,181 @@
+[gd_scene load_steps=5 format=3 uid="uid://d24msdp64fm27"]
+
+[ext_resource type="Script" path="res://MAIN.gd" id="1_c7mw1"]
+[ext_resource type="PackedScene" uid="uid://x6jde4clieac" path="res://Platform.tscn" id="1_w4p6k"]
+[ext_resource type="PackedScene" uid="uid://clstfnyvupbf8" path="res://PLAYER.tscn" id="2_y3dr0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1r31u"]
+size = Vector2(943.451, 1811.55)
+
+[node name="GAME" type="Node2D"]
+position = Vector2(-5, 2)
+scale = Vector2(0.999271, 0.991071)
+script = ExtResource("1_c7mw1")
+
+[node name="Node2D" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-11.008, 1601.3)
+scale = Vector2(1.44365, 3.14903)
+
+[node name="Node2D5" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(673.491, -5781.62)
+scale = Vector2(0.0626032, 68.1443)
+
+[node name="Node2D6" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-681.497, -5738.24)
+scale = Vector2(0.0626032, 67.7231)
+
+[node name="Node2D2" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(220.16, 1087.71)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D3" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-402.293, 817.298)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D4" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(574.419, 405.622)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_y3dr0")]
+position = Vector2(-172.125, 1221.91)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 1176.51)
+
+[node name="Node2D7" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-199.145, 253.261)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D8" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-516.376, -284.541)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D9" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(462.337, -745.658)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D10" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-313.228, -976.721)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D11" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(677.494, -1450.96)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D12" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-21.0153, -1745.59)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D13" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-504.368, -2321.73)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D14" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(487.355, -2591.14)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D15" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-186.136, -2988.69)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D16" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(538.393, -3411.46)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D19" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-312.228, -3764.61)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D20" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(276.201, -4260.04)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D21" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-279.204, -4764.54)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D22" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(584.426, -5178.24)
+scale = Vector2(0.108503, 0.245432)
+
+[node name="Node2D23" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(165.12, -5550.56)
+scale = Vector2(-0.0916434, 0.245432)
+
+[node name="Node2D24" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-603.44, -5772.54)
+scale = Vector2(-0.0916465, 0.245432)
+
+[node name="Node2D25" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(38.0276, -6096.44)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D26" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-156.114, -6357.77)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D27" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(507.37, -6782.56)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D28" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-733.535, -7031.79)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D29" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-10.0073, -7309.27)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D30" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(534.39, -7910.63)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D31" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-5.72205e-06, -7515.1)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D32" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-224.163, -8805.63)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D33" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-252.184, -8335.43)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D34" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(176.129, -9284.91)
+scale = Vector2(0.388705, 0.245432)
+
+[node name="Node2D35" parent="." instance=ExtResource("1_w4p6k")]
+position = Vector2(-233.17, -9746.02)
+scale = Vector2(0.977976, 0.238744)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-233.17, -9746.02)
+scale = Vector2(0.977976, 0.238744)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(20.4653, -874.858)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_1r31u")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 2789.0
+offset_top = 1603.0
+offset_right = 3383.0
+offset_bottom = 2770.0
+scale = Vector2(-0.858973, 0.427863)
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 1488.08
+offset_top = 1606.34
+offset_right = 2076.08
+offset_bottom = 2104.34
+text = "You reached the top of the tower. 
+So few have made it there yet you made it 
+seem like such a simple task. 
+If you wish to climb again , click the button on the right."
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

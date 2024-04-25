@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://x6jde4clieac"]
+
+[ext_resource type="Texture2D" uid="uid://ceqy3ij5o62fy" path="res://Wood-Free-PNG-Image.png" id="1_mron2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3k5wj"]
+size = Vector2(48.9282, 45.544)
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(1.44365, 0.848492)
+
+[node name="Wood-free-png-image" type="Sprite2D" parent="."]
+position = Vector2(3, -91)
+texture = ExtResource("1_mron2")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wood-free-png-image"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wood-free-png-image/StaticBody2D"]
+position = Vector2(-0.22924, 95.125)
+rotation = -3.14159
+scale = Vector2(19.6503, -4.68381)
+shape = SubResource("RectangleShape2D_3k5wj")
